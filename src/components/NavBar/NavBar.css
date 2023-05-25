@@ -14,3 +14,7 @@ li {
     cursor: pointer;
     text-decoration: underline;
 }
+
+.imgLuna {
+    width: 4rem;
+}

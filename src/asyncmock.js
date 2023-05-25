@@ -1,7 +1,7 @@
 const productos = [
-    {nombre: "Esculpidas", precio: 2000, id: "1", img: "./img/esculpidas.jpg", idCat:"1"},
-    {nombre: "Esmaltado SemiPermanente", precio: 1500, id: "2", img: "./img/esmaltado.jpg", idCat:"1"},
-    {nombre: "Kapping", precio: 1000, id: "3", img: "./img/kapping.jpg", idCat:"2"},
+    {nombre: "Esculpidas", precio: 2000, id: "1", img: "../img/esculpidas.jpg", idCat:"1"},
+    {nombre: "Esmaltado SemiPermanente", precio: 1500, id: "2", img: "../img/esmaltado.jpg", idCat:"2"},
+    {nombre: "Kapping", precio: 1000, id: "3", img: "../img/kapping.jpg", idCat:"2"},
    
 ]
 

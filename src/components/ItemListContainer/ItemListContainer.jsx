@@ -1,8 +1,8 @@
-import {useState, useEffect} from 'react'
-import {getProductos, getProductosPorCategoria} from '../../asyncmock'
-import './ItemListContainer.css'
-import ItemList from '../ItemList/ItemList'
+import { useState, useEffect } from 'react'
+import { getProductos, getProductosPorCategoria } from '../../asyncmock'
+import ItemList from '../ItemList/ItemList';
 import { useParams } from 'react-router-dom';
+
 
 const ItemListContainer = ({ greeting }) => {
 
@@ -20,10 +20,10 @@ const ItemListContainer = ({ greeting }) => {
   }, [idCategoria])
 
 return (
-  <div>
+  <>
       <h2 className='principal'>{ greeting } </h2>
       <ItemList productos={productos}/>
-  </div>
+  </>
 )
 }
 
